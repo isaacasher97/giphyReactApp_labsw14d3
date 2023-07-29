@@ -6,7 +6,7 @@ function Display(props) {
           <img src={giphy.data.images.preview_gif.url}></img>
           </div>;
     } else {
-      return <h1>Search for a Movie</h1>;
+      return <h1>Generate a Random GIF!</h1>;
     }
   }
   

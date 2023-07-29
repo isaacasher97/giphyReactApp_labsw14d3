@@ -30,7 +30,6 @@ function ControlledForm(props) {
 
 
     return <div>
-        <h3>Generate A Random GIF!</h3>
         <form onSubmit={handleSubmit}>
             <input type='submit' value={"Click For GIPHY Magic!"}/>
         </form>

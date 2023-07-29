@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Giphy</h1>
+      <h1>Giphy Generator</h1>
       <ControlledForm setGiphy={setGiphy}/>
       <Display giphy={giphy}/>
     </div>

@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,3 +40,27 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  width: 500px;
+  height: 500px;
+  border: 2px solid white;
+  margin-top: 60px
+}
+
+body {
+  background-color: #282c34;
+}
+
+h1, h2, ul {
+  text-align: center;
+  color: aliceblue;
+  background-color: #282c34;
+  width: 30%;
+  margin: 5px auto;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
